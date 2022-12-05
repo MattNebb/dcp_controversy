@@ -1,0 +1,26 @@
+>>Taxonomy research<<
+(WC = Economics OR WC = Law) AND (PY = 1990-2022) AND ALL = (("competition policy" OR antitrust) AND (digital OR ICT))
+
+>>Dataset queries<<
+[WoS1]
+(WC = Economics OR WC = Law) AND (PY = 1990-2022) AND ALL = (("competition policy" OR antitrust) AND (aggregator OR algorithm OR app OR "big tech" OR “data market” OR "data protection" OR digital OR ecommerce OR "electronic commerce" OR "internet monopolist" OR iot OR "internet of things" OR "online market" OR platform OR privacy OR "search engine" OR "sharing economy" OR "social media" OR "tech firms" ))
+
+[WoS1-L]
+(WC = Law) AND (PY = 1990-2022) AND ALL = (("competition policy" OR antitrust) AND (aggregator OR algorithm OR app OR "big tech" OR “data market” OR "data protection" OR digital OR ecommerce OR "electronic commerce" OR "internet monopolist" OR iot OR "internet of things" OR "online market" OR platform OR privacy OR "search engine" OR "sharing economy" OR "social media" OR "tech firms" ))
+
+[WoS1-E]
+(WC = Economics) AND (PY = 1990-2022) AND ALL = (("competition policy" OR antitrust) AND (aggregator OR algorithm OR app OR "big tech" OR “data market” OR "data protection" OR digital OR ecommerce OR "electronic commerce" OR "internet monopolist" OR iot OR "internet of things" OR "online market" OR platform OR privacy OR "search engine" OR "sharing economy" OR "social media" OR "tech firms" ))
+
+[WoS2]
+(PY = 1990-2022) AND ALL = (("competition policy" OR antitrust) AND (aggregator OR algorithm OR app OR "big tech" OR “data market” OR "data protection" OR digital OR ecommerce OR "electronic commerce" OR "internet monopolist" OR iot OR "internet of things" OR "online market" OR platform OR privacy OR "search engine" OR "sharing economy" OR "social media" OR "tech firms"))
+
+[WoS_pharma]
+(PY = 1990-2022) AND ALL= ("competition policy" OR antitrust) AND ALL=(pharmaceutical OR pharma) NOT ALL = (digital OR ict)
+
+[WoS_energy]
+(PY = 1990-2022) AND ALL= ("competition policy" OR antitrust) AND ALL=(energy) NOT ALL = (digital OR ict)
+
+[WoS_transport]
+(PY = 1990-2022) AND ALL= ("competition policy" OR antitrust) AND ALL=(transport) NOT ALL = (digital OR ict)
+
+The queries were used on the Web of Science portal on 1 November 2022.
